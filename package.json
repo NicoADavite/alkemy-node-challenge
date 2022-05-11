@@ -1,0 +1,21 @@
+{
+  "name": "challenge-backend---alkemy",
+  "version": "1.0.0",
+  "description": "Challenge Back-End de Alkemy hecho por Nicolás Alceo Davite",
+  "main": "app.js",
+  "scripts": {
+    "test": "nodemon src/app.js",
+    "dev": "nodemon src/app.js"
+  },
+  "author": "Nicolás Alceo Davite",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.1",
+    "mysql2": "^2.3.3",
+    "sequelize": "^6.19.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.16"
+  },
+  "type": "module"
+}
